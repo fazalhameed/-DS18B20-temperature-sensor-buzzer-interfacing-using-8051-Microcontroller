@@ -271,10 +271,9 @@ void values_on_ssd(void)
 	}
  index+=1;
 	if(index > 2)
-					{
-						index=0;
-					}
-  
+	{
+          index=0;
+	 }
 }
  unsigned char Unite1,Ten1,Hunderd1;
 unsigned char j=0;
