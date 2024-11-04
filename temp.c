@@ -28,7 +28,6 @@ DQ=1;
 delay_18B20(20);    
 }  
 
-
 void delay_18B20(unsigned int ud)
 {
     while(ud--); 
