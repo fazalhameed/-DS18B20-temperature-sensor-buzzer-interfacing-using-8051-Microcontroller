@@ -48,7 +48,6 @@ unsigned char read_byte(void)
     }
     return(dat);
 }
-
 // WRITE_BYTE - writes a byte to the one-wire bus.
 void write_byte(char dat)
 {
@@ -61,7 +60,6 @@ void write_byte(char dat)
         dat>>=1;
     }
 }
-
 void Read_Temperature(void)
 {
 ow_reset();
