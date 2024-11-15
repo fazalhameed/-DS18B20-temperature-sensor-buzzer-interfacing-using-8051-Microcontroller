@@ -32,7 +32,6 @@ void delay_18B20(unsigned int ud)
 {
     while(ud--); 
 }
-
 // READ_BYTE - reads a byte from the one-wire bus.
 unsigned char read_byte(void)
 {
@@ -117,7 +116,6 @@ void timer0_intrupt (void) interrupt 1   // called after 50 ms
 		buzzer_pin=1;
 		delay1(2);
 	}
-	
 	buzzer_pin=1;
 	TH0=0xFC;
 	TL0=0x18;
